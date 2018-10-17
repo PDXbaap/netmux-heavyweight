@@ -1,0 +1,19 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/home/jz/Documents/chainmux-src/srclib/apr/configure" \
+"--disable-option-checking" \
+"--with-included-apr" \
+"--with-pcre=/usr/local/bin/pcre-config" \
+"--enable-mods-static=all" \
+"--cache-file=/dev/null" \
+"--srcdir=/home/jz/Documents/chainmux-src/srclib/apr" \
+"--prefix=/home/jz/Software/chainmux" \
+"--exec-prefix=/home/jz/Software/chainmux" \
+"--libdir=/home/jz/Software/chainmux/lib" \
+"--includedir=/home/jz/Software/chainmux/include" \
+"--bindir=/home/jz/Software/chainmux/bin" \
+"--datadir=/home/jz/Software/chainmux" \
+"--with-installbuilddir=/home/jz/Software/chainmux/build" \
+"$@"

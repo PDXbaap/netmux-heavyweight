@@ -1,0 +1,10 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/home/jz/Software/chainmux" \
+"--with-included-apr" \
+"--with-pcre=/usr/local/bin/pcre-config" \
+"--enable-mods-static=all" \
+"$@"
